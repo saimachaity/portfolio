@@ -1,0 +1,167 @@
+.whole{
+  background:linear-gradient(grey, black);
+  background-repeat: no-repeat;
+}
+
+.navbar-brand{
+  border:2px solid white;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding-left: 10px;
+  margin-top: 3px;
+  padding-top: 10px;
+}
+
+.description{
+  text-align: center;
+  padding-top:30px;
+  color: white;
+  text-shadow: 4px 4px 6px Navy  ;
+}
+
+.description p{
+  font-size:18px;
+
+}
+
+.contactIcon{
+  margin-left: 25px;
+  margin-bottom:  30px;
+  display: inline-block;
+}
+
+.viewWork{
+  font-size: 18px;
+  border:4px solid Teal ;
+  width: 190px;
+  height: 45px;
+  margin-left: 495px;
+  padding-top: 3px;
+}
+
+.viewWork a{
+  text-decoration: none;
+}
+
+.technologies{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  
+}
+
+.certification{
+  text-align: center;
+  font-size: 18px;
+  list-style: none;
+}
+
+.tech{
+  list-style: none;
+}
+
+
+#icon{
+  background: white;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.learned ul li{
+  font-size: 18px;
+}
+
+#work{
+  background: LightSteelBlue ;
+  padding-bottom: 40px;
+}
+
+h4 {
+  margin: 0
+}
+.thumbnail {
+  height: 210px;
+  width: 400px;
+  overflow: hidden;
+}
+.heading{
+  position: relative;
+  transition: all .1s ease-out;
+  background: linear-gradient(#F0F8FF,#FAEBD7);
+  height: 280px;
+  text-align: center;
+  padding-top: 90px;
+  text-decoration: none;
+}
+
+.thumbnail:hover > .anim .heading {
+  top: -215px;
+  height: 280px;
+  text-shadow: 2px 2px 4px #FF7F50;
+  transition: all .1s ease-out;
+ 
+
+}
+
+.msg{
+   height: 650px;
+}
+
+.pic{
+  border:4px solid white;
+  border-radius: 50%;
+  margin-top: 90px;
+  margin-left: 440px;
+  
+}
+
+.icon{
+  margin-top: 60px;
+  color:steelblue;
+}
+
+#icon{
+  margin-top: 60px;
+}
+
+@keyframes icon{
+  0%{transform: translate(0px, 0px);}
+  100%{transform: translate(0px, -15px);}
+}
+
+.icon{
+  animation-name: icon;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.navbar{
+  width: 100%;
+  position: fixed;
+  background-color:black ;
+  border-color:transparent;
+  background-image:none;
+  box-shadow:none; 
+  opacity: 0.6;
+  font-style: oblique;
+  color: steelblue;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.contact{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background: black;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-shadow: 4px 4px 6px Navy  ;
+
+}
+
